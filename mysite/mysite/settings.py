@@ -125,3 +125,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 #STATICFILES_DIRS = [
 #    os.path.join(BASE_DIR, "static"),
 #]
+
+# ログインページに直接アクセスして、ログインが成功したときにトップレベルのインデックスにリダイレクトするための記述
+LOGIN_REDIRECT_URL = '/'
+

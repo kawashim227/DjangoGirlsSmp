@@ -10,6 +10,11 @@
     text-decoration: none;
 }
 
+.page-header p{
+    font-size:18pt;
+    font-family: 'Lobster', cursive;
+}
+
 .content {
     margin-left: 40px;
 }
